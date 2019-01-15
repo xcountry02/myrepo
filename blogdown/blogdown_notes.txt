@@ -3,3 +3,30 @@ Slides on blogdown:
 https://arm.rbind.io/days/day1/blogdown/
 
 
+DO NOT KNIT
+GO to Addins -> Serve Site
+
+> blogdown:::serve_site()
+Rendering content/blog/2015-07-23-r-rmarkdown.Rmd
+Building sites … 
+                   | EN  
++------------------+----+
+  Pages            | 43  
+  Paginator pages  |  2  
+  Non-page files   |  1  
+  Static files     | 18  
+  Processed images |  0  
+  Aliases          | 11  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 109 ms
+createTcpServer: address already in use
+To stop the server, run servr::daemon_stop("140428183618440") or restart your R session
+Serving the directory /home/kmichels/RMD_Adv_2019/myrepo/blogdown at http://127.0.0.1:6196
+
+When doing this, take the address:
+
+http://127.0.0.1:6196
+
+and run it in Chrome to get it to work.
