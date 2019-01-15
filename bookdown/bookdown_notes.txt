@@ -1,0 +1,10 @@
+Slides on bookdown:
+
+https://arm.rbind.io/days/day1/bookdown/
+
+
+There is only one yaml in index.Rmd.  There are no yamls for Each file.
+Each .Rmd is a chapter.
+The name is crucial, must have some sort of number (i.e. 01, 02, etc.)
+
+Don't use knit!  Use from Addins, do "Preview Book"
