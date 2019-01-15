@@ -1,0 +1,10 @@
+---
+  title: "armdeck"
+  subtitle: "rstudio::conf 2019"
+  author: "Alison Hill"
+  date: "`r Sys.Date()`"
+  output: xaringan::moon_reader:
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---

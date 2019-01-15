@@ -1,0 +1,8 @@
+
+Work on creating document with xaringan
+
+
+The xaringan slides are here:
+https://arm.rbind.io/days/day1/xaringan/
+
+

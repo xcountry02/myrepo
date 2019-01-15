@@ -1,0 +1,10 @@
+---
+title: "flexdashboard"
+output: xaringan::moon_reader 
+---
+
+class: center, middle
+
+# flexdashboard
+
+Stuff with flexdashboard
