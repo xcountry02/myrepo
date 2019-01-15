@@ -1,0 +1,7 @@
+Slides on readr:
+
+https://arm.rbind.io/slides/learnr.pdf
+
+https://arm.rbind.io/days/day1/learnr/
+
+

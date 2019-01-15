@@ -1,0 +1,5 @@
+
+Install kableExtra on github
+
+remotes::install_github('haozhu233/kableExtra', dependencies = TRUE)
+

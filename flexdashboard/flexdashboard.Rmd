@@ -1,10 +1,57 @@
 ---
-title: "flexdashboard"
-output: xaringan::moon_reader 
+title: "flex dashboard"
+output: flexdashboard::flex_dashboard
 ---
 
-class: center, middle
+# Page 1
 
-# flexdashboard
+Column {data-width=600}
+-----------------------------------------------------------------------
 
-Stuff with flexdashboard
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+
+# Page 2
+
+Column {data-width=700}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=300}
+-----------------------------------------------------------------------
+
+### Chart B1
+
+```{r}
+
+```
+
+### Chart C1
+
+```{r}
+
+```
