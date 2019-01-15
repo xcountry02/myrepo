@@ -1,0 +1,36 @@
+---
+title: "armdeck"
+output: xaringan::moon_reader 
+---
+
+class: center, middle
+
+# Introduce yourself!
+> My name is Alison and I am a Data Scientist & Professional Educator at RStudio. I live in Portland, Oregon with my husband, daughter, and our sourdough starter.
+.left[and babies]
+---
+
+class: left, middle
+
+# Find me at...
+With images, one can do the html embed.  It's html slides.
+![Image of Momtocat](http://bit.ly/momtocat)
+---
+# Hi there
+My name is Alison
+--
+I like hot toddies
+--
+`#rdogladies`
+--
+and babies
+
+---
+.pull-left[
+...
+![](image-link)
+]
+.pull-right[
+...
+![](image-link)
+]
