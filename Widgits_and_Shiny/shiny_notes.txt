@@ -1,0 +1,6 @@
+
+The HTML Widgets and shiny slides are here:
+https://slides.yihui.name/2019-rstudio-conf-rmarkdown-workshop.html#82
+
+
+  
