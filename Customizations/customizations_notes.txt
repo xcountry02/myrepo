@@ -7,3 +7,6 @@ The slides are at the bottom
 https://slides.yihui.name/2019-rstudio-conf-rmarkdown-workshop.html#1
 
 
+For bibliographies, have two .bib files, one made dynamically for R packages the rest for everything else.  Then the yml header is:
+
+bibliography: [one.bib, two.bib]

@@ -1,0 +1,24 @@
+---
+title: "Customizations"
+author: "Kurt Michels"
+date: "January 16, 2019"
+output: html_document
+params:
+  year: 2001
+---
+
+```{css, echo=FALSE}
+p {
+ color: red;
+}
+
+```
+
+Below are ten regression models:
+```{r, echo=FALSE, results='asis'}
+src = lapply(names(mtcars)[-1], function(i) {
+  knitr::knit_expand('template.Rmd')
+})
+res = knitr::knit_child(text = unlist(src))  # knit the source
+cat(res, sep = '\n')
+```

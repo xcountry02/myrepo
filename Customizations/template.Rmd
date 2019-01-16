@@ -1,0 +1,13 @@
+---
+title: "Customizations"
+author: "Kurt Michels"
+date: "January 16, 2019"
+output: html_document
+params:
+  year: 2001
+---
+
+# Regression on {{i}}
+```{r lm-{{i}}}
+lm(mpg ~ {{i}}, data = mtcars)
+```

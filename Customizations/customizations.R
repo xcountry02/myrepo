@@ -54,3 +54,6 @@ knitr::kable(iris)
 flextable(irisx)
 ```
 
+## knit expand
+library(knitr)
+knit_expand(text = "The value of pi is {{pi}}.")
