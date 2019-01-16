@@ -1,0 +1,38 @@
+---
+title: "Untitled"
+author: "Kurt Michels"
+date: "January 16, 2019"
+output: pdf_document
+---
+
+This is dealing with a Hook
+```{r include=FALSE}
+knitr::knit_hooks$set(output = local({
+  # the default output hook
+  hook_output = knitr::knit_hooks$get('output')
+  function(x, options) {
+    if (!is.null(n <- options$out.lines)) {
+      x = knitr:::split_lines(x)
+      if (length(x) > n) {
+        # truncate the output
+        x = c(head(x, n), '....\n')
+      }
+      x = paste(x, collapse = '\n') # paste first n lines together
+    }
+    hook_output(x, options)
+  }
+}))
+
+# knitr::knit_hooks$set(small_mar = function(before, options, envir) {
+#   if (before) par(mar = c(4, 4, .1, .1))
+# })
+```
+```{r out.lines=3}
+1:100
+# plot(cars)
+```
+
+
+```{r}
+DT::datatable(iris)
+```
