@@ -1,0 +1,9 @@
+Slides on customizations:
+
+https://arm.rbind.io/days/day2/
+
+The slides are at the bottom
+
+https://slides.yihui.name/2019-rstudio-conf-rmarkdown-workshop.html#1
+
+

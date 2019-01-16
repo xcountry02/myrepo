@@ -1,0 +1,10 @@
+---
+title: "Untitled"
+author: "Kurt Michels"
+date: "January 16, 2019"
+output: html_document
+---
+
+```{r}
+head(x)
+```
